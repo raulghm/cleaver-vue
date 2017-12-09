@@ -9,7 +9,9 @@
     <div class="slide-wrapper">
       <div class="slide{{#hidden}} hidden{{/hidden}}{{#classList}} {{classList}}{{/classList}}" id="slide-{{id}}">
         <div data-id="{{id}}" class="slide-overlay"></div>
-        <section class="slide-content">{{{content}}}</section>
+        <section class="slide-content">
+          <div class="slide-inner">{{{content}}}</div>
+        </section>
       </div>
     </div>
   {{/slides}}

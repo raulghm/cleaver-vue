@@ -121,6 +121,11 @@ img.badge {
   vertical-align: middle;
 }
 
+.slide-inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .slide-content img {
   display: block;
   width: 70%;
@@ -225,8 +230,8 @@ ul {
 blockquote {
   padding-left: 20px;
   margin-left: 0;
-  background: #6b4fbb;
-  border-left: 5px solid #272822;
+  background: #3ba073;
+  border-left: 5px solid #36495d;
   border-radius: 0 3px 3px 0;
 }
 blockquote p {
@@ -323,8 +328,7 @@ table th {
 /* Code Highlighting */
 code {
   padding: .1em .35em;
-  font-family: 'Inconsolata';
-  background-color: #1d0d3d;
+  background-color: #0f291e;
   border-radius: 3px;
 }
 
