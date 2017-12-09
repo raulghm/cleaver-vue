@@ -1,5 +1,7 @@
 # Cleaver - Vue Theme
 
+<img src="https://github.com/raulghm/cleaver-vue/blob/master/theme.jpg" alt="theme"/>
+
 ### Use
 
 - Check the [Cleaver Quick Start](https://github.com/jdan/cleaver) to understand Cleaver.
