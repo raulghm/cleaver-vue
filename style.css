@@ -367,6 +367,7 @@ kbd {
   border-radius: 6px;
   box-shadow: inset 0 -4px 0 #bbb;
 }
+
 .hljs {
   display: block;
   overflow-x: auto;
@@ -375,82 +376,71 @@ kbd {
   background: #f8f8f8;
 }
 
+/* Ocean Dark Theme */
+/* https://github.com/gavsiu */
+/* Original theme - https://github.com/chriskempson/base16 */
+
+/* Ocean Comment */
 .hljs-comment,
 .hljs-quote {
-  color: #998;
-  font-style: italic;
+  color: #65737e;
 }
 
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-subst {
-  color: #333;
-  font-weight: bold;
-}
-
-.hljs-number,
-.hljs-literal,
+/* Ocean Red */
 .hljs-variable,
 .hljs-template-variable,
-.hljs-tag .hljs-attr {
-  color: #008080;
-}
-
-.hljs-string,
-.hljs-doctag {
-  color: #d14;
-}
-
-.hljs-title,
-.hljs-section,
-.hljs-selector-id {
-  color: #900;
-  font-weight: bold;
-}
-
-.hljs-subst {
-  font-weight: normal;
-}
-
-.hljs-type,
-.hljs-class .hljs-title {
-  color: #458;
-  font-weight: bold;
-}
-
 .hljs-tag,
 .hljs-name,
-.hljs-attribute {
-  color: #000080;
-  font-weight: normal;
-}
-
+.hljs-selector-id,
+.hljs-selector-class,
 .hljs-regexp,
-.hljs-link {
-  color: #009926;
-}
-
-.hljs-symbol,
-.hljs-bullet {
-  color: #990073;
-}
-
-.hljs-built_in,
-.hljs-builtin-name {
-  color: #0086b3;
-}
-
-.hljs-meta {
-  color: #999;
-  font-weight: bold;
-}
-
 .hljs-deletion {
-  background: #fdd;
+  color: #bf616a;
 }
 
+/* Ocean Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #d08770;
+}
+
+/* Ocean Yellow */
+.hljs-attribute {
+  color: #ebcb8b;
+}
+
+/* Ocean Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
 .hljs-addition {
-  background: #dfd;
+  color: #a3be8c;
+}
+
+/* Ocean Blue */
+.hljs-title,
+.hljs-section {
+  color: #8fa1b3;
+}
+
+/* Ocean Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #b48ead;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b303b;
+  color: #c0c5ce;
+  padding: 0.5em;
 }
 
 .hljs-emphasis {
@@ -460,6 +450,7 @@ kbd {
 .hljs-strong {
   font-weight: bold;
 }
+
 
 /* Responsiveness */
 @media (max-width: 850px) {
