@@ -2,7 +2,7 @@
 
 ### Use
 
-- Check the [Cleaver Quick Start](https://github.com/jdan/cleaver) to understand and understand Cleaver.
+- Check the [Cleaver Quick Start](https://github.com/jdan/cleaver) to understand Cleaver.
 
 - Add it as a *theme* in your `.md` files calling directly this repository:
 

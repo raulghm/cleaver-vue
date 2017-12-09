@@ -10,6 +10,8 @@
 html,
 body {
   height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -86,7 +88,6 @@ img.badge {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 50px;
   z-index: 1;
   overflow: hidden;
   box-sizing: border-box;
@@ -149,7 +150,7 @@ img.badge {
 .overview {
   display: inline-block;
   float: left;
-  color: rgba(135, 135, 135, .5);
+  color: rgba(255, 255, 255, 0.28);
   margin-right: 15px;
   font-weight: bold;
   font-size: 30px;
@@ -165,7 +166,7 @@ img.badge {
   height: 0;
   width: 0;
   margin-right: 15px;
-  border: 15px solid rgba(135, 135, 135, .5);
+  border: 15px solid rgba(255, 255, 255, 0.28);
   -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
@@ -280,7 +281,7 @@ blockquote p {
 
 a {
   text-decoration: none;
-  color: #ff9c08;
+  color: #ffce08;
 }
 
 a:hover {
