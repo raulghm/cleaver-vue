@@ -20,8 +20,8 @@ body {
   font-size: 100%;
   color: #fff;
   background: #41b883; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #41b883 , #3c9e73); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(45deg, #41b883 , #3c9e73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(45deg, #1fef85 , #3c9e73); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #1fef85 , #3c9e73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .center {
